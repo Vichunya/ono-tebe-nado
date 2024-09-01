@@ -9,8 +9,10 @@
   height: 105px;
 }
 header {
-  padding-top: 92px;
-  margin-bottom: 96px;
+  padding: 92px 24px 24px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
 }
 .nav {
   display: flex;
@@ -19,11 +21,15 @@ header {
 }
 .menu_list {
   margin-left: 20px;
+  white-space: nowrap;
 }
-
+.menu_list_no_list_style {
+  margin-left: 20px;
+  list-style: none;
+}
 .main_blog {
-  display: flex;
-  align-items: center;
+  display: block;
+  align-self: center;
 }
 .phone,
 .square {
@@ -32,36 +38,50 @@ header {
 }
 .wrapper {
   position: relative;
-  margin-left: -15px;
 }
+.container {
+  padding: 165px 50px 50px;
+}
+
 .square {
   background-color: rgba(0, 0, 0, 0.49);
   position: absolute;
   top: 0;
+  text-transform: uppercase;
 }
 .square_text {
   font-size: 100px;
-  letter-spacing: 20px;
+  letter-spacing: 30px;
   color: white;
-  margin-left: 15px;
 }
-.word_o,
+
 .word_e {
-  margin-left: 40px;
+  letter-spacing: 30px;
 }
+.word_e_tmp {
+  letter-spacing: 60px;
+}
+.word_o {
+  letter-spacing: 60px;
+}
+
+
 .ab {
-  margin-top: 165px;
-  margin-left: 50px;
+  
 }
 .second_text_square {
   display: flex;
   justify-content: center;
 }
 .word_n {
-  margin-right: 15px;
+  letter-spacing: 60px;
 }
+.word_no_spacing {
+  letter-spacing: 0px;
+}
+
 .third_text_square {
-  width: 90%;
+  
   display: flex;
   justify-content: right;
 }
@@ -70,8 +90,8 @@ header {
   font-size: 22px;
   font-weight: 100;
   font-family: Raleway, sans-serif;
-  word-spacing: 50px;
-  width: 800px;
+  word-spacing: 18px;
+  
 }
 .btn {
   border: 2px solid white;
@@ -81,9 +101,9 @@ header {
 }
 .bc {
   display: flex;
-  height: 300px;
+  padding: 136px 0px 0px;
   align-items: center;
-  font-weight: 400px;
+  gap: 150px;
 }
 .card-1,
 .card-2,
