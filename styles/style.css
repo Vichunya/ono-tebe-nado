@@ -5,10 +5,11 @@
 }
 .header {
   padding: 92px 24px 96px 24px;
-  display: grid; 
+  display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
 }
+
 
 .main_photo {
   width: 148px;
