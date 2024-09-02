@@ -159,19 +159,21 @@
   position: absolute;
   top: 0px;
 }
-.first_text,
+
 .first_text-2,
-.second_text,
 .second_text-2,
-.third_text,
 .third_text-2 {
   color: white;
-  font-size: 22;
+  font-size: 20px;
   width: 254px;
 }
+
 .first_text,
 .second_text,
 .third_text {
+  color: white;
+  font-size: 22px;
+  width: 254px;
   text-decoration: underline;
   margin-top: 51px;
 }
