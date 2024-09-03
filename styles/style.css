@@ -53,7 +53,7 @@
 }
 
 .square {
-  background-color: rgba(0, 0, 0, 0.49);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
   text-transform: uppercase;
@@ -202,7 +202,7 @@
   width: 240px;
   height: 240px;
   background-color: black;
-  border-radius: 300px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
