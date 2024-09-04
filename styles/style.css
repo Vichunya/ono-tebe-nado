@@ -40,59 +40,53 @@
   font-size: 18px;
 }
 
-.phone,
-.square {
+.phone {
   width: 100%;
   height: 757px;
 }
 .wrapper {
   position: relative;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
 }
 .container {
   padding: 165px 50px 50px;
 }
 
-.square {
+.banner_container {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
   text-transform: uppercase;
+  width: 100%;
+  height: 757px;
 }
-.square_text {
+.banner_text {
   font-size: 100px;
   letter-spacing: 30px;
   color: white;
 }
 
-.word_e {
+.letter_normal_spacing {
   letter-spacing: 30px;
 }
-.word_e_tmp {
+.letter_big_spacing {
   letter-spacing: 60px;
 }
-.word_o {
-  letter-spacing: 60px;
-}
-
-
-
-.second_text_square {
+.text_centered {
   display: flex;
   justify-content: center;
 }
-.word_n {
-  letter-spacing: 60px;
-}
-.word_no_spacing {
+.letter_no_spacing {
   letter-spacing: 0px;
 }
 
-.third_text_square {
+.text_right_end {
   
   display: flex;
   justify-content: right;
 }
-.bc_text {
+.banner_text_lower {
   color: white;
   font-size: 22px;
   font-weight: 100;
@@ -106,7 +100,7 @@
   color: white;
   text-decoration: none;
 }
-.bc {
+.banner_footer {
   display: flex;
   padding: 136px 0px 0px;
   align-items: center;
@@ -116,14 +110,12 @@
   padding: 0px 24px;
 }
 
-.card-1,
-.card-2,
-.card-3 {
+.card {
   width: 334px;
   height: 563px;
   object-fit: cover;
 }
-.lot_1 {
+.lots {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
@@ -161,17 +153,17 @@
   top: 0px;
 }
 
-.first_text-2,
-.second_text-2,
-.third_text-2 {
+.lot_film_text,
+.lot_book_text,
+.lot_picture_text {
   color: white;
   font-size: 20px;
   width: 254px;
 }
 
-.first_text,
-.second_text,
-.third_text {
+.lot_film_title_text,
+.lot_book_title_text,
+.lot_picture_title_text {
   color: white;
   font-size: 22px;
   width: 254px;
@@ -184,7 +176,7 @@
   display: flex;
   align-items: end;
 }
-.third_text-2 {
+.lot_picture_text {
   margin-top: 90px;
 }
 .text_title {
@@ -211,14 +203,14 @@
   display: flex;
   align-items: center;
 }
-.third-title {
+.auction_title {
   padding-left: 72px;
   text-transform: uppercase;
   font-size: 40px;
 }
 
-.third-title-first,
-.third-title-second {
+.auction_strange_things_text,
+.auction_cult_lots_text {
   font-size: 20px;
 }
 .hh {
@@ -226,11 +218,11 @@
   width: 1000px;
   justify-content: right;
 }
-.third-title-second {
+.auction_cult_lots_text {
   padding-top: 24px;
   width: 693px;
 }
-.third-title-first {
+.auction_strange_things_text {
   width: 688px;
 }
 .logo_footer {
