@@ -163,14 +163,14 @@
   background-position: center;
 }
 
-.lot_block_experiment {
+.lots_block {
   display: flex;
   flex-direction: column;
   max-height: 563px;
   height: 100vh;
 }
 
-.lot_block_text_experiment {
+.lot_block_text {
   color: white;
   font-size: 20px;
   width: 254px;
@@ -178,7 +178,7 @@
   margin-bottom: 48px;
 }
 
-.lot_block_text_title_experiment {
+.lot_block_text_title {
   color: white;
   font-size: 22px;
   width: 254px;
