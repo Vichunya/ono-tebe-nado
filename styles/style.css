@@ -2,6 +2,7 @@
   list-style-type: circle;
   display: flex;
   margin-left: 20px;
+  font-size: 18px;
 }
 
 .header {
@@ -45,6 +46,10 @@
   justify-self: end;
   font-size: 18px;
   font-style: normal;
+}
+
+.main_blog_address_alignment {
+  padding-right: 25px;
 }
 
 .wrapper {
@@ -105,21 +110,22 @@
   font-weight: 100;
   font-family: Raleway, sans-serif;
   word-spacing: 18px;
-  
+  padding-left: 28px;
 }
 
 .btn {
   border: 2px solid white;
-  padding: 12px 32px;
+  padding: 12px 32px 11px 31px;
   color: white;
   text-decoration: none;
+  font-size: 22px;
 }
 
 .banner_footer {
   display: flex;
   padding: 136px 0px 0px;
   align-items: center;
-  gap: 150px;
+  gap: 79px;  
 }
 
 .container_lots {
@@ -204,6 +210,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.auction_section_container {
+  padding: 146px 24px 180px 24px;
 }
 
 .mini_auction_section {
