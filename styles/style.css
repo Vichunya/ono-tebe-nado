@@ -136,6 +136,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .lot_overlay {
@@ -166,8 +167,6 @@
 .lots_block {
   display: flex;
   flex-direction: column;
-  max-height: 563px;
-  height: 100vh;
 }
 
 .lot_block_text {
@@ -245,4 +244,8 @@
   display: flex;
   justify-content: space-between;
   padding: 180px 50px 88px 50px;
+}
+
+.footer_menu_cards {
+  display: flex;
 }
