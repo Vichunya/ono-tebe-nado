@@ -140,9 +140,10 @@
 
 .lots {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 30px;
   flex-wrap: wrap;
+  gap: 25px;
 }
 
 .lot_overlay {
