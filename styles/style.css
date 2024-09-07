@@ -6,7 +6,7 @@
 }
 
 .header {
-  padding: 92px 24px 96px 24px;
+  padding: 92px 24px 92px 24px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
@@ -24,7 +24,7 @@
 }
 
 .menu_list {
-  margin-left: 20px;
+  margin-left: 32px;
 }
 
 .menu_list_no_list_style {
@@ -49,7 +49,7 @@
 }
 
 .main_blog_address_alignment {
-  padding-right: 25px;
+  padding-right: 52px;
 }
 
 .wrapper {
@@ -111,6 +111,7 @@
   font-family: Raleway, sans-serif;
   word-spacing: 18px;
   padding-left: 28px;
+  white-space: nowrap;
 }
 
 .btn {
@@ -119,6 +120,7 @@
   color: white;
   text-decoration: none;
   font-size: 22px;
+  white-space: nowrap;
 }
 
 .banner_footer {
@@ -190,6 +192,7 @@
   width: 254px;
   text-decoration: underline;
   margin-top: 51px;
+  text-transform: uppercase;
 }
 
 .text_title {
@@ -197,6 +200,11 @@
   margin-bottom: 27px;
   margin-left: 40px;
   font-size: 40px;
+}
+
+.link-watch {
+  font-size: 20px;
+  padding-left: 40px;
 }
 
 .auction_logo {
@@ -214,24 +222,20 @@
 }
 
 .auction_section_container {
-  padding: 146px 24px 180px 71px;
-}
-
-.mini_auction_section {
-  display: flex;
-  align-items: center;
+  padding: 181px 24px 180px 71px;
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 
 .auction_title {
-  padding-left: 72px;
+  padding-bottom: 100px;
   text-transform: uppercase;
   font-size: 40px;
 }
 
 .about_auction {
-  display: flex;
-  width: 1000px;
-  justify-content: right;
+  padding-top: 98px;
+  padding-left: 72px;
 }
 .auction_description_text {
   font-size: 20px;
@@ -244,7 +248,10 @@
 
 .logo_footer {
   width: 48px;
-  margin-right: 40px;
+}
+
+.logo_footer_margin {
+  margin-right: 48px;
 }
 
 .footer_menu {
@@ -254,9 +261,14 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 50px 88px 50px;
+  padding: 0px 50px 88px 50px;
 }
 
 .footer_menu_cards {
   display: flex;
 }
+
+.bottom_block_address {
+  line-height: 1.35;
+}
+
